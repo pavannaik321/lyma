@@ -1,0 +1,30 @@
+.footer-main{
+/*     position: fixed;
+    bottom: 0px; */
+    width: -webkit-fill-available;
+    padding: 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-text-heading{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.footer-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-body > a{
+    margin-top: 10px;
+    color: rgb(143, 143, 143);
+}
+
+.buy{
+    font-weight: 600;
+    font-size: 19px;
+}

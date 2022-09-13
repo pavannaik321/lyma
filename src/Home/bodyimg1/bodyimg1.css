@@ -1,0 +1,11 @@
+.body-img{
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.body-img > img{
+    width: 58vw;
+    height: 30vw;
+}

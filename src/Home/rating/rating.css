@@ -1,0 +1,90 @@
+.rating-container{
+    width: fit-content;
+    margin: auto;
+}
+
+.rating-heading{
+    margin-top: -50px;
+}
+
+.rating-items{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.r1{
+    height: 7rem;
+    width: 18rem;
+}
+
+.l-customer{
+    text-align: center;
+    color: #817e7e;
+}
+
+/* styling the journal part*/
+
+.journal-div{
+    background-color: #f9fafb;
+    padding: 30px;
+    margin-top: 8rem;
+}
+/* styling card */
+.card-group{
+    display: flex;
+}
+
+.card-img2{
+    width: 17rem;
+}
+.card-img2:hover{
+    transform: scale(1.2);
+    transition: linear 1s;
+}
+.Card-body{
+    width: 17rem;
+}
+.card-text{
+    width: 17rem;
+}
+.card-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-title {
+    font-size: 21px;
+}
+
+.card-subtitle{
+    font-size: 21px;
+}
+.a-tag{
+    color: black;
+}
+.class-group{
+    margin-top: 8rem;
+}
+
+.before-footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.before-footer > h2{
+    width: 300px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    border-right: 1px solid black;
+    margin-left: -3px;
+    top: 0;
+}
+.before-footer-heading{
+    border-left: 1px solid black;
+}

@@ -1,0 +1,18 @@
+.img-text{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 12vw;
+}
+
+.img-text > h2{
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.img-text > p{
+    font-size: 1.2vw;
+}
+.main-image-container{
+    height: 43vw;
+}

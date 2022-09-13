@@ -1,0 +1,30 @@
+.help-text{
+    text-align: center;
+    width: 45rem;
+    margin: auto;
+}
+
+.input{
+    border: none;
+    width: 51rem;
+    height: 2rem;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 5rem;
+}
+.help-container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 63px;
+}
+
+.help-tags{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.help-tags1{
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 40px;
+}

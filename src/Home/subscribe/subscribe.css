@@ -1,0 +1,18 @@
+.main{
+    width: -webkit-fill-available;
+    height: 39vw;
+    
+}
+.subscribe-main{
+    height: 43rem;
+}
+
+.flex{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    bottom: 32rem;
+    color: white;
+    font-size: 30px;
+    
+}

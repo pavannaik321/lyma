@@ -1,0 +1,107 @@
+.content{
+        width: -webkit-fill-available;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: black;
+        font-family: montserrat,sans-serif;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        height: 3rem; 
+}
+
+.menu{
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    left: 76px;
+    top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu1{
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    right: 115px;
+    top: 10px;
+}
+
+.logo{
+    font-family: 'Playball', cursive;
+    font-weight: 100;
+    z-index: 0;
+    position: relative;
+    font-size: 30px;
+    bottom: 9px;
+}
+.buy-link{
+    color: #000;
+    background: #fff;
+    border: solid 1px #fff;
+    padding: 3px 10px;
+    width: 58px;
+    position: relative;
+    bottom: 4px;
+
+}
+
+.buy-link:hover{
+    color: white;
+    background: black;
+    border: solid 1px white;
+    transition-delay: 0.2s;
+    font-size: 15px;
+
+
+
+}
+
+
+
+/* styling image part in Lyma */
+
+.main-img{
+    width: -webkit-fill-available;
+    z-index: -1;
+    position:absolute;
+    top: 0px;
+    height: 670px;
+}
+
+
+
+
+
+/* header.white-font:not(.hover) {
+    background-color: transparent
+}
+
+header.white-font:not(.hover) .hamburger-btn:before,header.white-font:not(.hover) .hamburger-btn:after {
+    background: #fff
+}
+
+header.white-font:not(.hover) .menu-box.desktop-menu .menu>li>a {
+    color: #fff
+}
+
+header.white-font:not(.hover) .extra-menu.desktop-menu .menu li a {
+    color: #fff
+}
+
+header.white-font:not(.hover) .extra-menu.desktop-menu .menu li.buy-link a {
+    color: #000;
+    background: #fff;
+    border: solid 1px #fff
+} */

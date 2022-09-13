@@ -1,0 +1,201 @@
+.active-button3{
+    color: white;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    width: 11rem;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 2.3rem;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+
+.active-button3:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.fade-up1{
+    height: 43rem;
+    width: -webkit-fill-available;
+    margin-top: 50px;
+}
+
+/* styling after journey part */
+
+.jmain{
+    display: flex;
+    height: 43rem;
+    background-color: transparent;
+    align-items: center;
+    position: relative;
+    bottom: 43rem;
+}
+
+.jcontainer{
+    border-right: 0.1px solid white;
+    height: 696px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15.8rem;
+    
+}
+/* .jcontainer:hover{
+    transform: scale(1.1);
+    transition: linear 1s;
+}
+ */
+ .p{
+     text-align: center;
+ }
+
+ .div {
+    position: relative;
+    bottom: 35rem;
+ }
+.icon{
+    text-align: center;
+    cursor: pointer;
+}
+
+.jh2 {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.jp2{
+
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+/* .jcontainer:hover + .jp2{
+    display: block;
+} */
+/* #ji{
+    display: none;
+    color: white;
+    text-align: center;
+} */
+
+svg{
+    font-size: 34px;
+    color: white;
+}
+
+/* #jc:hover + #ji{
+    display: block;
+} */
+
+.sup-card-img{
+    height: 27vw;
+}
+
+.sub-card-container{
+    padding: 17px;
+}
+.sub-card-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 28vw;
+    background-color: black;
+}
+
+.sub-card-container > p{
+    width: 26vw;
+    font-size: 20px;
+    color: rgb(148, 146, 146);
+}
+
+.sub-card-container >h2{
+    font-family: sans-serif;
+    text-align: start;
+    color: white;
+}
+.sub-card-container >h3{
+    color: white;
+}
+
+.sub-card-main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 23vw;
+    background-color: black;
+    flex-wrap: nowrap;
+}
+.sub-card-container2 >h2{
+    font-family: sans-serif;
+    text-align: end;
+    color: white;
+}
+.sub-card-container2 > p{
+    width: 26vw;
+    font-size: 20px;
+    color: rgb(148, 146, 146);
+}
+.sub-card-container2 >h3{
+    color: white;
+}
+
+.sub-card-container2{
+    text-align: end;
+    padding: 17px;
+}
+
+/* styling the discover part */
+.discover-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    bottom: 16vw;
+
+}
+
+.discover-container > h2{
+    font-family: sans-serif;
+    margin: auto;
+    padding: 5px;
+}
+
+.discover-container > p{
+    color: rgb(148, 146, 146);
+    padding: 10px;
+}
+.discover-container > button{
+    padding: 10px;
+    width: 10vw;
+    margin: auto;
+    font-size: 1vw;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.discover-container > button:hover{
+
+    background-color: white;
+    border: none;
+    color: black;
+    transition: 1s;
+    border: 1px solid black;
+}
+
+.special-con1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 130px;
+}
